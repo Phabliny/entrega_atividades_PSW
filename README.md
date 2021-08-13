@@ -1,10 +1,14 @@
-*Primeira aplicação em Spring MVC usando Thymeleaf
+###Disciplina Projeto Sistema Web MVC e SQL
 
-**Projeto Sistema Web MVC e SQL
+#Primeira aplicação em Spring MVC usando Thymeleaf
 
 - Construir uma aplicação Spring que exiba 6 números aleatórios usando Thymeleaf.
 - Entregar informando o link do repositório GitHub com o projeto desenvolvido.
 
-## A Aplicação será visualizada no navegador da segunte maneira
+## Visualizando a aplicação no navegador
 
-<img src="img/site.jpg">
+http://localhost:8080/atividade1
+
+<div align="center">
+    <img src="img/site.jpg">
+</div>
