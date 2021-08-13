@@ -1,6 +1,6 @@
-###Disciplina Projeto Sistema Web MVC e SQL
+### Disciplina Projeto Sistema Web MVC e SQL
 
-#Primeira aplicação em Spring MVC usando Thymeleaf
+# Primeira aplicação em Spring MVC usando Thymeleaf
 
 - Construir uma aplicação Spring que exiba 6 números aleatórios usando Thymeleaf.
 - Entregar informando o link do repositório GitHub com o projeto desenvolvido.
