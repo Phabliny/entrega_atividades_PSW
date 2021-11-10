@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+        .body {
+            height: 67.5vh;
+            margin-right: 300px;
+        }
+
+        .texto{
+            width: 350px;
+        }
+
+    </style>
+</head>
+<body>
+    <div th:insert="fragments/barra_navegacao :: navbar">
+    </div>
+
+    <div class="body d-flex flex-row justify-content-between ml-5 ml-5 pr-5 mr-5 mt-4 mb-4">
+        <div class="texto">
+            <p class="ml-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis et, maxime, mollitia fugit, pariatur laborum culpa doloremque ut iure assumenda error aut iusto eum sint iste id cum! Expedita, deleniti.
+            Distinctio quod harum nam itaque aperiam, modi numquam tempora id similique, aut praesentium architecto minima ad! Ipsa quis labore illo at amet unde veniam, libero sint distinctio odio eum tenetur.
+            Dignissimos velit asperiores eaque accusamus in beatae laborum at similique ratione officia modi quibusdam ea, ipsa amet tempora dolorum, quis laboriosam. Accusantium repellendus, fugiat perferendis quia atque amet.</p>
+        </div>
+
+        <div class="texto">
+            <p class="ml-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis et, maxime, mollitia fugit, pariatur laborum culpa doloremque ut iure assumenda error aut iusto eum sint iste id cum! Expedita, deleniti.
+            Distinctio quod harum nam itaque aperiam, modi numquam tempora id similique, aut praesentium architecto minima ad! Ipsa quis labore illo at amet unde veniam, libero sint distinctio odio eum tenetur.
+            Dignissimos velit asperiores eaque accusamus in beatae laborum at similique ratione officia modi quibusdam ea, ipsa amet tempora dolorum, quis laboriosam. Accusantium repellendus, fugiat perferendis quia atque amet. Labore, culpa. </p>
+        </div>
+
+        <div class="texto">
+            <p class="ml-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis et, maxime, mollitia fugit, pariatur laborum culpa doloremque ut iure assumenda error aut iusto eum sint iste id cum! Expedita, deleniti.
+            Distinctio quod harum nam itaque aperiam, modi numquam tempora id similique, aut praesentium architecto minima ad! Ipsa quis labore illo at amet unde veniam, libero sint distinctio odio eum tenetur.
+            Dignissimos velit asperiores eaque accusamus in beatae laborum at similique ratione officia modi quibusdam ea, ipsa amet tempora dolorum, quis laboriosam. Accusantium repellendus, fugiat perferendis quia atque amet. Labore, culpa.</p>
+        </div>
+
+    </div>
+
+    <div th:insert="fragments/rodape :: footer">
+    </div>
+    
+</body>
+</html>

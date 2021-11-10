@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AtividadeApplication<atividade>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.edu.iftm.atividade.AtividadeApplication",
+            "projectName": "atividade",
+            "args": ""
+        }
+    ]
+}
